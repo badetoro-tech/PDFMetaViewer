@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=['C:\\Users\\AdetoroBayo\\PycharmProjects\\PDFMetaViewer'],
     binaries=[],
-    datas=[('C:\\Users\\AdetoroBayo\\PycharmProjects\\PDFMetaViewer\\pdf.ico', '.')],
+    datas=[],
 	packages=['fitz'], 
     hiddenimports=['fitz'],
     hookspath=[],
