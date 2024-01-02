@@ -143,7 +143,7 @@ def open_pdf():
         if created_date != modified_date or created_date is None:
             created_date_label.config(fg="orange")
             modified_date_label.config(fg="orange")
-            flag = 'Probable'
+            flag = 'Review with an Underwriter before proceeding'
             modified_doc_label.config(fg="red")
         if version > 1:
             doc_version_label.config(text=f"Document Version: {version}. (Original file generated)")
